@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika&display=swap');
+
+body{
+    font-family: 'Signika', sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+main {
+    padding: 20px;
+    overflow: auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#content{
+    float: right;
+    width: 75%;
+}
+
+header {
+    display: inline;
+ }
+
+ .fancy{
+    font-weight: bold;
+    text-shadow: 4px 4px 3px #B44C28;
+}
+.jumbotron {
+    font-size: 20px;
+    padding: 60px;
+    background-color: #8B4513;
+    border: 4px dotted #ffffff;
+    text-align: center;
+    color: white;
+}
+
+ nav {
+    background-color: sienna;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+nav li {
+    list-style-type: none;
+    
+}
+
+nav a:hover {
+    font-weight: bold;
+}
+
+nav a {
+    color: white;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+h1{
+    font-family: 'Dancing Script', cursive;
+
+}
+
+h2, h3{
+    color: sienna;
+    
+}
+
+.profile header{
+    text-align: center;
+}
+
+ 
+.featured-image{
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+.footer{
+    padding: 20px;
+    color: white;
+    background-color: sienna;
+}
+
+
+p {
+    text-indent: 2em;
+ }
+
+.profile img{
+    width:200px;
+}
+
+.card{
+    box-shadow:  0px 4px 12px 0px rgba(179,115,59,1);
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+
+.sub-footer{
+    padding: 5px;
+    color: black;
+    background-color: pink;
+    text-align: center;
+    font-weight: bold;
+}
+
+aside{
+    float: right;
+    width: 25%;
+    padding-right: 20px;
+}
+
+.container {
+    display: flex;
+   flex-wrap: wrap;
+
+
+}
+
+.flex-container-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-container-row {
+    display: flex;
+ }
+
+
+@media screen and (max-width: 1000px) {
+    #content,
+    aside{
+        width: 100%;
+        padding: 0;
+        float: none;
+    }
+ 
+}
+
